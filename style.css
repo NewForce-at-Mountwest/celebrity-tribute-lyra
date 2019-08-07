@@ -1,0 +1,37 @@
+.career{
+    background-color: lightslategray;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    border: 0.5px dotted black;
+}
+
+.section__content{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#filmPosters{
+    display:flex;
+    justify-content: center;
+    
+}
+
+#filmPosterTitles{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+.filmItem{
+    font-family: Geneva, Tahoma, sans-serif;
+}
+.filmimg{
+    border:2px solid black;
+    margin: 0.7em;
+    
+}
+
+.award__content{
+    font-style: oblique;
+    font-size: 1.5em;
+}

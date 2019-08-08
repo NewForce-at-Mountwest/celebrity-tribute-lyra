@@ -1,3 +1,37 @@
+body{
+    background-color: lightgray;
+}
+
+.newsfeed__movie {
+    height: 38vh;
+    width: auto;
+    border: 1px solid black;
+}
+
+.newsfeed {
+    background-color: lightslategray;
+    padding: 1em;
+    border: 3px solid black;
+}
+
+.newsfeed__article p {
+    font-style: italic;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+    margin-left: 40px;
+}
+
+.newsfeed__list {
+    list-style-type: none;
+    text-align:center;
+}
+
+.newsfeed__footer {
+    font-size: 0.7em;
+    text-align: center;
+}
+
 
 /* NAVBAR-CODE COPIED FROM DARYL */
 .career{

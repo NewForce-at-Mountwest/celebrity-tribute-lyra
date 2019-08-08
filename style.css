@@ -1,0 +1,38 @@
+
+/* NAVBAR-CODE COPIED FROM DARYL */
+.navbar{
+    display: flex;
+    font-family:Helvetica, sans-serif;
+    background-color: lightslategray;
+    justify-content: space-around;
+    margin: 3em;
+    padding: 1em;
+    border: 3px solid black;
+}
+.nav__element{
+    color: black;
+    text-decoration: none;
+}
+/* SUBHEADING CENTER & STYLE */
+.subheading{
+    text-align: center;
+    font-family: Helvetica, sans-serif
+}
+/* TEXT BELOW TITLE */
+.jack-birth{
+    text-align: center;
+    font-weight: bold;
+}
+/* FAMILY INFORMATION & PICS */
+.familyMembers{
+    list-style-type: none;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+.family-img{
+    height: 30vh;
+    width: auto;
+    border: 1px solid black;
+
+}

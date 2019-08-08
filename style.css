@@ -36,3 +36,57 @@
     border: 1px solid black;
 
 }
+
+.name{
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    font-size: xx-large;
+    justify-content: center;
+     }
+.Bio__Photo1{
+    height: 38vh;
+    width: auto;
+    margin: 1em;
+}
+.Bio__Photo2{
+    height: 38vh;
+    width: auto;
+    margin: 1em
+}
+.img{
+    justify-content: center;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+    margin: 1em
+}
+.sub__subheading{
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+}
+.subheading{
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.contact__info{
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    padding: 1em  
+}

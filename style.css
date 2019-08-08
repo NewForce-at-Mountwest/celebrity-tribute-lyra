@@ -5,9 +5,6 @@
     border: 0.5px dotted black;
 }
 
-.subheading{
-    margin-left: 1.5em;
-}
 
 .section__content{
     font-size: 1.2em;
@@ -45,4 +42,76 @@
     margin-left: 4em;
     margin-right: 4em;
     padding: 2em;
+}
+.navbar{
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    background-color: lightslategray;  
+    justify-content: space-around;
+    margin: 3em;
+    padding: 1em;
+    border: 3px solid; color: black;
+}
+
+.nav__element{
+    color: black;
+    text-decoration: none;
+   
+}
+
+.name{
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    font-size: xx-large;
+    justify-content: center;
+     }
+.Bio__Photo1{
+    height: 38vh;
+    width: auto;
+    margin: 1em;
+}
+.Bio__Photo2{
+    height: 38vh;
+    width: auto;
+    margin: 1em
+}
+.img{
+    justify-content: center;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+    margin: 1em
+}
+.sub__subheading{
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+}
+/* .subheading{
+    margin-left: 1.5em;
+} */
+.subheading{
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.contact__info{
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    padding: 1em  
 }

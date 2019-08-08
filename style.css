@@ -31,6 +31,52 @@ body{
     font-size: 0.7em;
     text-align: center;
 }
+
+.career{
+    background-color: lightslategray;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    border: 0.5px dotted black;
+}
+
+
+.section__content{
+    font-size: 1.2em;
+    text-align: justify;
+    margin-left: 4em;
+}
+
+#filmPosters{
+    display:flex;
+    justify-content: center;
+    
+}
+
+#filmPosterTitles{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+.filmItem{
+    font-family: Geneva, Tahoma, sans-serif;
+}
+.filmimg{
+    border:2px solid black;
+    margin: 0.7em;
+    
+}
+
+.award__content{
+    font-style: oblique;
+    font-size: 1.5em;
+}
+
+.career__paragraph{
+    margin-left: 4em;
+    margin-right: 4em;
+    padding: 2em;
+}
 .navbar{
     display: flex;
     font-family: Helvetica, sans-serif;
@@ -77,6 +123,9 @@ body{
     font-family: Helvetica, sans-serif;
     font-size: large;
 }
+/* .subheading{
+    margin-left: 1.5em;
+} */
 .subheading{
     display: flex;
     justify-content: center;

@@ -5,9 +5,14 @@
     border: 0.5px dotted black;
 }
 
+.subheading{
+    margin-left: 1.5em;
+}
+
 .section__content{
     font-size: 1.2em;
     text-align: justify;
+    margin-left: 4em;
 }
 
 #filmPosters{
@@ -34,4 +39,10 @@
 .award__content{
     font-style: oblique;
     font-size: 1.5em;
+}
+
+.career__paragraph{
+    margin-left: 4em;
+    margin-right: 4em;
+    padding: 2em;
 }

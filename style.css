@@ -35,7 +35,7 @@ body{
 }
 
 
-/* NAVBAR-CODE COPIED FROM DARYL */
+
 .career{
     /* background-color: lightslategray; */
     font-family: Helvetica, sans-serif;
@@ -92,6 +92,7 @@ body{
     margin-right: 4em;
     padding: 2em;
 }
+/* NAVBAR-CODE COPIED FROM DARYL */
 .navbar{
     display: flex;
     font-family: 'New Rocker', cursive;
@@ -125,6 +126,14 @@ body{
     font-weight: bold;
 }
 /* FAMILY INFORMATION & PICS */
+.image-box{
+    background-color: lightslategray;
+    border: 3px solid black;
+    height: auto;
+    width: 60vw;
+    text-align: center;
+    margin: auto;
+}
 .familyMembers{
     list-style-type: none;
     text-align: center;
@@ -136,6 +145,10 @@ body{
     width: auto;
     border: 1px solid black;
 
+}
+.family-img:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
 .name{
@@ -182,6 +195,9 @@ body{
 .contact{
     display: flex;
     justify-content: center;
+    font-size: 2em;
+    font-family: Helvetica, sans-serif;
+
    
 }
 
@@ -189,7 +205,15 @@ body{
     display: flex;
     justify-content: center;
 }
-
+/* SOCIAL MEDIA ICONS W/ WORKING LINKS */
+.footer-image{
+    height: 80px;
+    width: 80px;
+}
+.footer-image:hover{
+    opacity: 0.5;
+  filter: alpha(opacity=50);
+}
 .contact__info{
     display: flex;
     font-family: Helvetica, sans-serif;

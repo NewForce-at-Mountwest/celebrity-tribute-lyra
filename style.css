@@ -1,5 +1,7 @@
 body{
-    background-color: lightgray;
+    background-image: url("http://ava7.com/w/actors/jack-black/jack-black-actor.jpg");
+    background-repeat: no-repeat;
+    background-size: stretch;
 }
 
 .newsfeed__movie {
@@ -9,7 +11,7 @@ body{
 }
 
 .newsfeed {
-    background-color: lightslategray;
+    /* background-color: lightslategray; */
     padding: 1em;
     border: 3px solid black;
 }
@@ -35,10 +37,11 @@ body{
 
 
 .career{
-    background-color: lightslategray;
+    /* background-color: lightslategray; */
     font-family: Helvetica, sans-serif;
     color: black;
     border: 0.5px dotted black;
+
 }
 
 
@@ -47,11 +50,15 @@ body{
     text-align: justify;
     margin-left: 4em;
 }
-
+#filmTitleAndPosters{
+    margin-left: -4em;
+}
 #filmPosters{
     display:flex;
-    justify-content: center;
-    
+    justify-content: left;
+}
+.filmimg:hover{
+    box-shadow: 0 19px 26px 0 rgba(236, 220, 220, 0.2), 0 19px 40px 0 rgba(235, 182, 182, 0.19)
 }
 
 #filmPosterTitles{
@@ -62,11 +69,17 @@ body{
 }
 .filmItem{
     font-family: Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+.filmItem:hover{
+    font-weight: bold;
+    font-size: 1.1em;
 }
 .filmimg{
-    border:2px solid black;
+    border:2px solid rgb(234, 236, 231);
     margin: 0.7em;
-    
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 25px 0 rgba(0, 0, 0, 0.19)
+
 }
 
 .award__content{

@@ -96,16 +96,25 @@ body{
 /* NAVBAR-CODE COPIED FROM DARYL */
 .navbar{
     display: flex;
-    font-family:Helvetica, sans-serif;
-    background-color: lightslategray;
-    justify-content: space-around;
-    margin: 3em;
-    padding: 1em;
+    font-family: 'New Rocker', cursive;
+    justify-content: space-evenly;  
+    padding: 50px 10px 1px 10px;
     border: 3px solid black;
+    position: fixed;
+    top: -8%;
+    width: 95%; 
+    align-content: center; 
+    background-image: linear-gradient( rgb(150, 149, 149), rgba(138, 6, 6, 0.185));
+    
+      
 }
 .nav__element{
     color: black;
     text-decoration: none;
+    font-size: 40px;
+    align-content: center;
+    padding-bottom: 30px;
+   
 }
 /* SUBHEADING CENTER & STYLE */
 .subheading{
@@ -148,11 +157,13 @@ body{
     font-family: Helvetica, sans-serif;
     font-size: xx-large;
     justify-content: center;
+    padding-top: 4em;
      }
 .Bio__Photo1{
     height: 38vh;
     width: auto;
     margin: 1em;
+   
 }
 .Bio__Photo2{
     height: 38vh;
@@ -165,7 +176,8 @@ body{
 .photos{
     display: flex;
     justify-content: center;
-    margin: 1em
+    margin: 1em;
+   
 }
 .sub__subheading{
     display: flex;
@@ -207,4 +219,8 @@ body{
     display: flex;
     font-family: Helvetica, sans-serif;
     padding: 1em  
+}
+
+.spacing{
+    padding-top: 6em
 }

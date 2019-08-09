@@ -95,22 +95,21 @@ body{
 .navbar{
     display: flex;
     font-family: 'New Rocker', cursive;
-    justify-content: space-evenly;
-    margin: 1em;
-    padding: 50px 10px 20px 10px;
+    justify-content: space-evenly;  
+    padding: 50px 10px 1px 10px;
     border: 3px solid black;
     position: fixed;
     top: -8%;
     width: 95%; 
     align-content: center; 
-    background-image: linear-gradient( rgb(150, 149, 149), rgba(138, 6, 6, 0.904));
+    background-image: linear-gradient( rgb(150, 149, 149), rgba(138, 6, 6, 0.185));
     
       
 }
 .nav__element{
     color: black;
     text-decoration: none;
-    font-size: 60px;
+    font-size: 40px;
     align-content: center;
     padding-bottom: 30px;
    
@@ -195,4 +194,8 @@ body{
     display: flex;
     font-family: Helvetica, sans-serif;
     padding: 1em  
+}
+
+.spacing{
+    padding-top: 6em
 }

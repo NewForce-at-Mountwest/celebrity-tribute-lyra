@@ -2,7 +2,7 @@ body{
     background-image: url("http://ava7.com/w/actors/jack-black/jack-black-actor.jpg");
     background-repeat: no-repeat;
     background-size: stretch;
-    cursor: url('guitar.png');
+    cursor: url('guitarcursor.png'), default;
 }
 
 .newsfeed__movie {
